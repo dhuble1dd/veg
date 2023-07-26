@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.veg.app-mergeDebugResources-36:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\groni\\.gradle\\caches\\transforms-3\\c808ff0b8d85a47ce8b1133970c525ae\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

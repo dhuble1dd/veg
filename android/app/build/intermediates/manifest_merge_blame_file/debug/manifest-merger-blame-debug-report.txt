@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.veg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:6:5-66
+12-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:3:5-67
+13-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:3:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:4:5-65
+14-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:4:22-62
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\groni\.gradle\caches\transforms-3\9e1e499747885fdd7fd03aa84ea651f5\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\groni\.gradle\caches\transforms-3\9e1e499747885fdd7fd03aa84ea651f5\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+16
+17    <uses-feature
+17-->[:react-native-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.camera"
+18-->[:react-native-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:12:9-47
+19        android:required="false" />
+19-->[:react-native-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:13:9-33
+20    <uses-feature
+20-->[:react-native-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.camera.autofocus"
+21-->[:react-native-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:15:9-57
+22        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[:react-native-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:16:9-33
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\groni\.gradle\caches\transforms-3\3e2f34f1368ad5a41c2b274e86107b43\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+23-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\groni\.gradle\caches\transforms-3\3e2f34f1368ad5a41c2b274e86107b43\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+26
+27    <queries>
+27-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:24:5-28:15
+28        <intent>
+28-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:25:9-27:18
+29            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+29-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:26:13-86
+29-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:26:21-83
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\groni\.gradle\caches\transforms-3\7ce700eb76f2ae9c227e5fab2c93d18a\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+33-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\groni\.gradle\caches\transforms-3\7ce700eb76f2ae9c227e5fab2c93d18a\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+34
+35    <application
+35-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:6:5-27:19
+36        android:name="com.veg.MainApplication"
+36-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:7:7-38
+37        android:allowBackup="false"
+37-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:11:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] C:\Users\groni\.gradle\caches\transforms-3\5e68d30948a9a99d88e9750a07980fcb\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:9:7-41
+41        android:label="@string/app_name"
+41-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:8:7-39
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:10:7-52
+43        android:theme="@style/AppTheme"
+43-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:12:7-38
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:9:9-44
+45        <activity
+45-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:12:9-111
+46            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+46-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:12:19-83
+47            android:exported="false" />
+47-->C:\Users\groni\Desktop\veg\android\app\src\debug\AndroidManifest.xml:12:84-108
+48        <activity
+48-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:13:7-26:18
+49            android:name="com.veg.MainActivity"
+49-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:14:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+50-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:16:9-118
+51            android:exported="true"
+51-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:19:9-32
+52            android:label="@string/app_name"
+52-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:15:9-41
+53            android:launchMode="singleTask"
+53-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:17:9-40
+54            android:screenOrientation="portrait"
+54-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:20:9-45
+55            android:windowSoftInputMode="adjustResize" >
+55-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:18:9-51
+56            <intent-filter>
+56-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:22:9-25:25
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:23:13-65
+57-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:23:21-62
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:24:13-73
+59-->C:\Users\groni\Desktop\veg\android\app\src\main\AndroidManifest.xml:24:23-70
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\groni\.gradle\caches\transforms-3\7dc5b873e142738863a8574da0b14f5c\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:9:9-15:19
+64            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+64-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\groni\.gradle\caches\transforms-3\7dc5b873e142738863a8574da0b14f5c\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:10:13-91
+65            android:directBootAware="true"
+65-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:17:13-43
+66            android:exported="false" >
+66-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\groni\.gradle\caches\transforms-3\7dc5b873e142738863a8574da0b14f5c\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:11:13-37
+67            <meta-data
+67-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\groni\.gradle\caches\transforms-3\7dc5b873e142738863a8574da0b14f5c\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+68-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\groni\.gradle\caches\transforms-3\7dc5b873e142738863a8574da0b14f5c\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\groni\.gradle\caches\transforms-3\7dc5b873e142738863a8574da0b14f5c\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\groni\.gradle\caches\transforms-3\d666eea98058040a9b9c62da15a144cc\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+71-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\groni\.gradle\caches\transforms-3\d666eea98058040a9b9c62da15a144cc\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\groni\.gradle\caches\transforms-3\d666eea98058040a9b9c62da15a144cc\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\groni\.gradle\caches\transforms-3\2fc6b71b74d4430973261f6bbd9e74ce\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:12:13-14:85
+74                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+74-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\groni\.gradle\caches\transforms-3\2fc6b71b74d4430973261f6bbd9e74ce\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:13:17-120
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\groni\.gradle\caches\transforms-3\2fc6b71b74d4430973261f6bbd9e74ce\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:14:17-82
+76            <meta-data
+76-->[com.google.mlkit:vision-common:16.5.0] C:\Users\groni\.gradle\caches\transforms-3\41b6aee57feac81fea5b7390d60ccdf3\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+77                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+77-->[com.google.mlkit:vision-common:16.5.0] C:\Users\groni\.gradle\caches\transforms-3\41b6aee57feac81fea5b7390d60ccdf3\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.mlkit:vision-common:16.5.0] C:\Users\groni\.gradle\caches\transforms-3\41b6aee57feac81fea5b7390d60ccdf3\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+79            <meta-data
+79-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:20:13-22:85
+80                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+80-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:21:17-120
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:22:17-82
+82        </service>
+83
+84        <provider
+84-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:9:9-13:38
+85            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+85-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:10:13-78
+86            android:authorities="com.veg.mlkitinitprovider"
+86-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:11:13-69
+87            android:exported="false"
+87-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:12:13-37
+88            android:initOrder="99" />
+88-->[com.google.mlkit:common:17.3.0] C:\Users\groni\.gradle\caches\transforms-3\4a6fb5399f8732b52f21be14b3fd168c\transformed\jetified-common-17.3.0\AndroidManifest.xml:13:13-35
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\281b1581ab06881b9e57a474ee42bbbf\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\281b1581ab06881b9e57a474ee42bbbf\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\281b1581ab06881b9e57a474ee42bbbf\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\281b1581ab06881b9e57a474ee42bbbf\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\33c98e5b68378ff1cd37da9f35fc2d2e\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\33c98e5b68378ff1cd37da9f35fc2d2e\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\groni\.gradle\caches\transforms-3\33c98e5b68378ff1cd37da9f35fc2d2e\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+101            android:authorities="com.veg.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\groni\.gradle\caches\transforms-3\dbdbde1b223d22a8ab6140dafdcd55c4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\groni\.gradle\caches\transforms-3\91604180073415d2f667845acd9d4467\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\groni\.gradle\caches\transforms-3\91604180073415d2f667845acd9d4467\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\groni\.gradle\caches\transforms-3\91604180073415d2f667845acd9d4467\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+109        </provider>
+110
+111        <service
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+112            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+113            android:exported="false" >
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+114            <meta-data
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+115                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+116                android:value="cct" />
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\groni\.gradle\caches\transforms-3\2961c8f21d735c767838913fce2063ad\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+117        </service>
+118        <service
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+119            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+120            android:exported="false"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" >
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+122        </service>
+123
+124        <receiver
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+125            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+126            android:exported="false" />
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\groni\.gradle\caches\transforms-3\a14d6e7eed4f8d72311bde61869350c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+127
+128        <uses-library
+128-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:31:9-33:40
+129            android:name="androidx.camera.extensions.impl"
+129-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:32:13-59
+130            android:required="false" />
+130-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\6bfa4830278d5d662ed930c876c042ef\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:33:13-37
+131
+132        <service
+132-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:26:9-35:19
+133            android:name="androidx.camera.core.impl.MetadataHolderService"
+133-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:27:13-75
+134            android:enabled="false"
+134-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:28:13-36
+135            android:exported="false" >
+135-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:29:13-37
+136            <meta-data
+136-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:32:13-34:89
+137                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+137-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:33:17-103
+138                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+138-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\groni\.gradle\caches\transforms-3\789c7461556ca5becfc32c4202de5b95\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:34:17-86
+139        </service>
+140    </application>
+141
+142</manifest>

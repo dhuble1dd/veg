@@ -29,9 +29,9 @@ export const ScannedcodePage = () => {
                         renderItem={renderItem}
                         keyExtractor={keyExtractor}
                         data={data}
-                        ItemSeparatorComponent={
-                            <View style={styles.separator}/>
-                        }
+                        //ItemSeparatorComponent={
+                        //    <View style={styles.separator}/>
+                        //}
                     />
                 </View>
             </View>

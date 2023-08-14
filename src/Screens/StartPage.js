@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { useStyles } from "../Styles/StartPage.styles";
 import {useNavigation} from '@react-navigation/native'
@@ -7,7 +7,7 @@ export const StartPage = () => {
     const styles = useStyles();
 
     const navigation = useNavigation();
-    const handleNavigate = (screen) => navigation.navigate(screen) 
+    const handleNavigate = useCallback((screen) => navigation.navigate(screen) )
 
     return (
         <View style={styles.container}>

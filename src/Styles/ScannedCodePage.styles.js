@@ -18,7 +18,7 @@ export const useStyles = () => {
                     flex: 1,
                     flexDirection: 'column',
                     justifyContent: 'center',
-                    backgroundColor: isDarkTheme ? '#000' : '#fff',
+                    backgroundColor: isDarkTheme ? '#141414' : '#fff',
                 },
                 header: {
                     height: 60,
@@ -26,11 +26,11 @@ export const useStyles = () => {
                     left: 0,
                     right: 0,
                     top: 0,
-                    backgroundColor: isDarkTheme ? '#000' : '#fff',
+                    backgroundColor: isDarkTheme ? '#222' : '#fff',
                     zIndex: 10,
                     paddingTop: 10,
-                    borderBottomColor: isDarkTheme ? '#fff' : '#000',
-                    borderBottomWidth: 1
+                    //borderBottomColor: isDarkTheme ? '#fff' : '#000',
+                    //borderBottomWidth: 1
                 },
                 content: {
                     alignItems: 'center',
@@ -40,7 +40,7 @@ export const useStyles = () => {
                 box: {
                     width: 300,
                     height: 200,
-                    backgroundColor: isDarkTheme ? '#000' : '#fff',
+                    backgroundColor: isDarkTheme ? '#222' : '#fff',
                     marginBottom: 10
                 },
                 greenText: {

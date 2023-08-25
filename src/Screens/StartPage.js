@@ -1,7 +1,9 @@
 import React, { useCallback } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { useStyles } from "../Styles/StartPage.styles";
-import {useNavigation} from '@react-navigation/native'
+import {useNavigation} from '@react-navigation/native';
+import { strings } from "../Lng/localization";
+import { ModalLng } from "../Lng/ModalLng";
 
 export const StartPage = () => {
     const styles = useStyles();
@@ -9,26 +11,29 @@ export const StartPage = () => {
     const navigation = useNavigation();
     const handleNavigate = useCallback((screen) => navigation.navigate(screen) )
 
+    
+
     return (
         <View style={styles.container}>
             <View style={styles.box1}>
+                <ModalLng/>
                 <View style={styles.circle}>
-                    <Text style={[styles.greenText, styles.boldText]} numberOfLines={1}>Cool vegan</Text>
-                    <Text style={[styles.greenText, styles.boldText]} numberOfLines={2}>logo</Text>
+                    <Text style={[styles.greenText, styles.boldText]} numberOfLines={1}>{strings.logo1}</Text>
+                    <Text style={[styles.greenText, styles.boldText]} numberOfLines={2}>{strings.logo2}</Text>
                 </View>
             </View>
             <View style={styles.box2}>
                 <View>
-                    <Text style={[styles.whiteText, styles.boldText]} numberOfLines={1}>Don't Starve!</Text>
-                    <Text style={[styles.whiteText, styles.boldText]} numberOfLines={2}>Find a Vegan Alternative</Text>
+                    <Text style={[styles.whiteText, styles.boldText]} numberOfLines={1}>{strings.head1}</Text>
+                    <Text style={[styles.whiteText, styles.boldText]} numberOfLines={2}>{strings.head2}</Text>
                 </View>
                 <View>
-                    <Text style={[styles.whiteText, styles.normalText]} numberOfLines={5}>Let vegetarion deliciousness</Text>
-                    <Text style={[styles.whiteText, styles.normalText]} numberOfLines={6}>twirl your paenus.</Text>
+                    <Text style={[styles.whiteText, styles.normalText]} numberOfLines={5}>{strings.main1}</Text>
+                    <Text style={[styles.whiteText, styles.normalText]} numberOfLines={6}>{strings.main2}</Text>
                 </View>
                 <View style={styles.btn}>
                     <TouchableOpacity onPress={() => handleNavigate('BarcodeScreen')}>
-                        <Text style={styles.greenText}>Lets start</Text>
+                        <Text style={styles.greenText}>{strings.btn}</Text>
                     </TouchableOpacity>
                 </View>
             </View>

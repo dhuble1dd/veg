@@ -19,6 +19,8 @@ import org.reactnative.camera.RNCameraPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-localization
+import com.babisoft.ReactNativeLocalization.ReactNativeLocalizationPackage;
 // react-native-permissions
 import com.zoontek.rnpermissions.RNPermissionsPackage;
 // react-native-reanimated
@@ -80,6 +82,7 @@ public class PackageList {
       new RNCameraPackage(),
       new RNDeviceInfo(),
       new RNGestureHandlerPackage(),
+      new ReactNativeLocalizationPackage(),
       new RNPermissionsPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),

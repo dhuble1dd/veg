@@ -4,7 +4,7 @@
             "outputFile": "com.veg.app-mergeDebugResources-36:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\groni\\.gradle\\caches\\transforms-3\\c808ff0b8d85a47ce8b1133970c525ae\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\groni\\.gradle\\caches\\transforms-3\\828cb2e3c63cd71aa37a2d84ba28e3bd\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\groni\\.gradle\\caches\\transforms-3\\5e68d30948a9a99d88e9750a07980fcb\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\groni\\.gradle\\caches\\transforms-3\\192e21dbf9a1e63777359010b1e2c7db\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="33" />
+        android:targetSdkVersion="31" />
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -59,6 +59,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.facebook.soloader.enabled"
+            android:value="false" />
 
         <service
             android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"

@@ -9,6 +9,10 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactNativeHost;
 import com.facebook.soloader.SoLoader;
 import java.util.List;
+import java.util.Arrays;
+import com.facebook.react.shell.MainReactPackage;
+import com.facebook.react.ReactPackage;
+import com.babisoft.ReactNativeLocalization.ReactNativeLocalizationPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -25,8 +29,12 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
-          return packages;
+          return  Arrays.<ReactPackage>asList(
+            new MainReactPackage(),
+            new ReactNativeLocalizationPackage()
+        );
         }
+
 
         @Override
         protected String getJSMainModuleName() {

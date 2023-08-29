@@ -29,6 +29,8 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 // react-native-vision-camera
 import com.mrousavy.camera.CameraPackage;
 // vision-camera-code-scanner
@@ -87,6 +89,7 @@ public class PackageList {
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
+      new VectorIconsPackage(),
       new CameraPackage(),
       new VisionCameraCodeScannerPluginPackage()
     ));

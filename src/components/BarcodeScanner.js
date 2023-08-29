@@ -6,6 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import { useStyles } from "../Styles/BarcodePage.styles";
 import { scannedCode } from "../redux/reducer";
+import strings from "../Lng/localization";
 
 
 export const BarcodeScanner = () => {
@@ -29,8 +30,8 @@ export const BarcodeScanner = () => {
         <View>
             <View style={styles.box1}>
                 <View style={styles.marginT}>
-                    <Text style={[styles.whiteText, styles.boldText]}>Take a picture of your</Text>
-                    <Text style={[styles.whiteText, styles.boldText]}>foods barcode</Text>
+                    <Text style={[styles.whiteText, styles.boldText]}>{strings.bc1}</Text>
+                    <Text style={[styles.whiteText, styles.boldText]}>{strings.bc2}</Text>
                 </View>
             </View>
             <View style={styles.box2}>

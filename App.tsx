@@ -15,6 +15,7 @@ import { StartPage } from './src/Screens/StartPage';
 import {NavigationContainer} from '@react-navigation/native'
 import { Navigation } from './src/Navigation/Navigation';
 import 'react-native-reanimated';
+//import "react-native-gesture-handler";
 export default function App() {
   return (
     <NavigationContainer>

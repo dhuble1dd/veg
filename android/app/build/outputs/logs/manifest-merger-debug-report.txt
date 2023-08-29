@@ -17,6 +17,7 @@ MERGED from [:react-native-permissions] C:\Users\groni\Desktop\veg\node_modules\
 MERGED from [:react-native-reanimated] C:\Users\groni\Desktop\veg\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] C:\Users\groni\Desktop\veg\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] C:\Users\groni\Desktop\veg\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] C:\Users\groni\Desktop\veg\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:vision-camera-code-scanner] C:\Users\groni\Desktop\veg\node_modules\vision-camera-code-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vision-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-vision-camera\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.72.4] C:\Users\groni\.gradle\caches\transforms-3\c60db5210c0dd661c6ada9683cfdd4e3\transformed\jetified-react-android-0.72.4-debug\AndroidManifest.xml:2:1-7:12
@@ -279,6 +280,8 @@ MERGED from [:react-native-safe-area-context] C:\Users\groni\Desktop\veg\node_mo
 MERGED from [:react-native-safe-area-context] C:\Users\groni\Desktop\veg\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] C:\Users\groni\Desktop\veg\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] C:\Users\groni\Desktop\veg\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] C:\Users\groni\Desktop\veg\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] C:\Users\groni\Desktop\veg\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:vision-camera-code-scanner] C:\Users\groni\Desktop\veg\node_modules\vision-camera-code-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:vision-camera-code-scanner] C:\Users\groni\Desktop\veg\node_modules\vision-camera-code-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vision-camera] C:\Users\groni\Desktop\veg\node_modules\react-native-vision-camera\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44

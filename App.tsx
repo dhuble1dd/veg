@@ -12,14 +12,19 @@ import Absolute from "./layouts/Absolute";
 import HeaderFooter from "./layouts/HeaderFooter";
 import SuperGrid from "./layouts/SuperGrid";
 import { StartPage } from './src/Screens/StartPage';
-import {NavigationContainer} from '@react-navigation/native'
+import { NavigationContainer } from '@react-navigation/native'
 import { Navigation } from './src/Navigation/Navigation';
 import 'react-native-reanimated';
+import { Provider } from 'react-redux';
+import { store } from './src/redux/store';
 //import "react-native-gesture-handler";
 export default function App() {
-  return (
-    <NavigationContainer>
-        <Navigation/>
-    </NavigationContainer>
-  );
+    return (
+    <Provider store={store}>
+        <NavigationContainer>
+            <Navigation />
+        </NavigationContainer>
+    </Provider>
+
+    );
 }

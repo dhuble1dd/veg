@@ -1,10 +1,10 @@
-import React, { useCallback, useEffect } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { useStyles } from "../Styles/StartPage.styles";
 import { useNavigation } from '@react-navigation/native';
-import strings from "../Lng/localization";
+import strings from "../Lng/ModalLng";
 import { ModalLng } from "../Lng/ModalLng";
-import { Provider } from "react-redux";
+import { Provider, useSelector } from "react-redux";
 import { store } from "../redux/store";
 
 export const StartPage = () => {
@@ -12,9 +12,9 @@ export const StartPage = () => {
 
     const navigation = useNavigation();
     const handleNavigate = useCallback((screen) => navigation.navigate(screen))
-
-    
-    
+    const [ln,setLn] = useState()
+    const currentLanguage = useSelector(state => state.code.lng)
+    useEffect(()=>{setLn(currentLanguage)},[currentLanguage])
 
     return (
         <Provider store={store}>

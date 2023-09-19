@@ -5,7 +5,7 @@ const CodeReducer = createSlice({
     name: 'codeReducer',
     initialState: {
         code: '',
-        lng: ' ' 
+        lng: strings.getInterfaceLanguage() 
     },
     reducers: {
         scannedCode(state, action) {
